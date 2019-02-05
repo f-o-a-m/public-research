@@ -139,6 +139,22 @@ _Chitra Javali, Girish Revadigar, Kasper B. Rasmussen, Wen Hu, Sanjay Jha_
 
 \clearpage
 
+# GPS Accuaracy Improvements
+
+## PRACTICAL, INEXPENSIVE, NANOSECOND TIME-ACCURACY USING GPS^[[New Mexico Institute of Mining and Technology](https://pdfs.semanticscholar.org/0529/00a69bbb3db6a615bfb14843a5bcf54292d5.pdf)]
+_Scott Miller, Gene DuVall, Azmat Bhatty, James Edmonds_
+
+> This paper investigates a method for achieving timing accuracy of approximately 3ns using low-cost, low-power components suitable for use in embedded systems. After developing an error model and a prototype costing $440 and consisting of an Oncore M12+ GPS receiver, an uncompensated 33MHz oscillator, and an Altera Cyclone Programmable Logic Device, testing indicated short-term frequency stability on the order of 1.5x10-15 seconds with the full system only consuming 1.7W from a 5V supply. Further testing is required to fully characterize this approach.
+
+## Clock Models, Metrics, and Testing^[[ODVA
+2014 Industry Conference](https://www.odva.org/Portals/0/Library/Annual_Meeting_2014/2014_ODVA_Conference_McGaughey_Clock_Models_Metrics_Testing_FINAL.pdf)]
+_Reid McGaughey_
+
+> An introduction to clock models, metrics for gauging a clock’s performance, and the various test setups for collecting these metrics.
+ [and] the implementation and plant models for clocks, and how PTP interacts with these models. As part of the model discussion, we have discussed the disturbances that affect clocks, especially thermal drift and PDV. Clocks have noise processes other than additive white Gaussian noise, and metrics that provide insight into those noise processes provide further insight into the clock. Finally, we discussed the importance of unit testing and how purpose built timing test equipment can improve the development process.
+
+\clearpage
+
 # Appendix
 
 The following format may be used for referencing papers:
@@ -151,15 +167,15 @@ _authors_
 additional comments as needed.
 ```
 
-# Make instructions for document
+# Make instructions for this document
 
 Pandoc is a cross-platform application used for converting documents to other formats. The following will generate the pdf version of this document. Markdown is used for consistency, and ease of assembly.
 
-```pandoc 'Distributed Hardware Literature Review.md' --pdf-engine=xelatex -o 'Distributed Hardware Literature Review.pdf
+```pandoc 'Distributed Hardware Literature Review.md' --pdf-engine=xelatex -o 'Distributed Hardware Literature Review.pdf'
 ```
 
 # Glossary
-> Words and their definitions should be included here alphabetically. Definitely include any domain specific words here, generic technical words may be included if this will improve readability.
+> Words and their definitions should be included here alphabetically. Definitely include any domain specific words here, generic technical words may be included if this will improve readability of the document. Try to be succint where possible.
 
 
 ## Attenuation

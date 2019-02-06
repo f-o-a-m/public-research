@@ -1,4 +1,4 @@
-# Distributed Hardware Literature Review^[[_add new research as noted in the syle guidlines in the appendix._]()]
+# Distributed Hardware Literature Review^[[_add new research as noted in the style guidelines in the appendix._]()]
 ## FOAM Protocol Research links
 
 # LPWAN (Low Power Wide Area Network)
